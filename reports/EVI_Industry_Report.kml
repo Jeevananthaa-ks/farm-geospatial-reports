@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1616">
+        <name>EVI Report</name>
+        <Folder id="1617">
+            <name>EVI [10m Res] | Date: 2025-01-22</name>
+            <Folder id="1618">
+                <name>EVI: Sparse (&lt;0.15)</name>
+            </Folder>
+            <Folder id="1619">
+                <name>EVI: Low (0.15-0.25)</name>
+            </Folder>
+            <Folder id="1620">
+                <name>EVI: Average (0.25-0.35)</name>
+            </Folder>
+            <Folder id="1621">
+                <name>EVI: Good (0.35-0.45)</name>
+            </Folder>
+            <Folder id="1622">
+                <name>EVI: Healthy (0.45-0.6)</name>
+            </Folder>
+            <Folder id="1623">
+                <Style id="1630">
+                    <LineStyle id="1632">
+                        <colorMode>normal</colorMode>
+                        <width>0</width>
+                    </LineStyle>
+                    <PolyStyle id="1631">
+                        <color>bf004b00</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="1639">
+                    <LineStyle id="1641">
+                        <colorMode>normal</colorMode>
+                        <width>0</width>
+                    </LineStyle>
+                    <PolyStyle id="1640">
+                        <color>bf004b00</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="1648">
+                    <LineStyle id="1650">
+                        <colorMode>normal</colorMode>
+                        <width>0</width>
+                    </LineStyle>
+                    <PolyStyle id="1649">
+                        <color>bf004b00</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="1657">
+                    <LineStyle id="1659">
+                        <colorMode>normal</colorMode>
+                        <width>0</width>
+                    </LineStyle>
+                    <PolyStyle id="1658">
+                        <color>bf004b00</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>EVI: Vigorous (&gt;0.6)</name>
+                <Placemark id="1625">
+                    <name>Class: Vigorous (&gt;0.6)</name>
+                    <styleUrl>#1630</styleUrl>
+                    <Polygon id="1624">
+                        <outerBoundaryIs>
+                            <LinearRing id="1628">
+                                <coordinates>77.59395895944873,11.286343398149256,0.0 77.59395895944873,11.286163735092432,0.0 77.59386912792031,11.286163735092432,0.0 77.59386912792031,11.285624745921961,0.0 77.59413862250555,11.285624745921961,0.0 77.59413862250555,11.285714577450372,0.0 77.59422845403397,11.285714577450372,0.0 77.59422845403397,11.285804408978784,0.0 77.59413862250555,11.285804408978784,0.0 77.59413862250555,11.285984072035609,0.0 77.5944081170908,11.285984072035609,0.0 77.5944081170908,11.286163735092432,0.0 77.59431828556238,11.286163735092432,0.0 77.59431828556238,11.286253566620845,0.0 77.59413862250555,11.286253566620845,0.0 77.59413862250555,11.286163735092432,0.0 77.59404879097714,11.286163735092432,0.0 77.59404879097714,11.286343398149256,0.0 77.59395895944873,11.286343398149256,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="1634">
+                    <name>Class: Vigorous (&gt;0.6)</name>
+                    <styleUrl>#1639</styleUrl>
+                    <Polygon id="1633">
+                        <outerBoundaryIs>
+                            <LinearRing id="1637">
+                                <coordinates>77.5944979486192,11.285624745921961,0.0 77.59458778014762,11.285624745921961,0.0 77.59458778014762,11.285714577450372,0.0 77.5944979486192,11.285714577450372,0.0 77.5944979486192,11.285624745921961,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="1643">
+                    <name>Class: Vigorous (&gt;0.6)</name>
+                    <styleUrl>#1648</styleUrl>
+                    <Polygon id="1642">
+                        <outerBoundaryIs>
+                            <LinearRing id="1646">
+                                <coordinates>77.59584542154538,11.286253566620845,0.0 77.59593525307379,11.286253566620845,0.0 77.59593525307379,11.286343398149256,0.0 77.59584542154538,11.286343398149256,0.0 77.59584542154538,11.286253566620845,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="1652">
+                    <name>Class: Vigorous (&gt;0.6)</name>
+                    <styleUrl>#1657</styleUrl>
+                    <Polygon id="1651">
+                        <outerBoundaryIs>
+                            <LinearRing id="1655">
+                                <coordinates>77.59611491613062,11.28607390356402,0.0 77.59611491613062,11.285804408978784,0.0 77.59629457918744,11.285804408978784,0.0 77.59629457918744,11.285894240507195,0.0 77.59638441071586,11.285894240507195,0.0 77.59638441071586,11.285984072035609,0.0 77.59620474765903,11.285984072035609,0.0 77.59620474765903,11.28607390356402,0.0 77.59611491613062,11.28607390356402,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+        </Folder>
+    </Document>
+</kml>
