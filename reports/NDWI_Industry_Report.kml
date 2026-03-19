@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1661">
+        <name>NDWI Report</name>
+        <Folder id="1662">
+            <name>NDWI [10m Res] | Date: 2025-01-22</name>
+            <Folder id="1663">
+                <Style id="1670">
+                    <LineStyle id="1672">
+                        <colorMode>normal</colorMode>
+                        <width>0</width>
+                    </LineStyle>
+                    <PolyStyle id="1671">
+                        <color>bf0000ff</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>NDWI: Arid (&lt;-0.25)</name>
+                <Placemark id="1665">
+                    <name>Class: Arid (&lt;-0.25)</name>
+                    <styleUrl>#1670</styleUrl>
+                    <Polygon id="1664">
+                        <outerBoundaryIs>
+                            <LinearRing id="1668">
+                                <coordinates>77.59395895944873,11.286433229677668,0.0 77.59395895944873,11.286343398149256,0.0 77.59386912792031,11.286343398149256,0.0 77.59386912792031,11.2851755882799,0.0 77.5937792963919,11.2851755882799,0.0 77.5937792963919,11.284007778410546,0.0 77.59422845403397,11.284007778410546,0.0 77.59422845403397,11.284097609938957,0.0 77.5952166008465,11.284097609938957,0.0 77.5952166008465,11.284187441467369,0.0 77.59620474765903,11.284187441467369,0.0 77.59620474765903,11.284546767581016,0.0 77.59629457918744,11.284546767581016,0.0 77.59629457918744,11.285534914393548,0.0 77.59638441071586,11.285534914393548,0.0 77.59638441071586,11.286253566620845,0.0 77.59629457918744,11.286253566620845,0.0 77.59629457918744,11.286343398149256,0.0 77.59494710626126,11.286343398149256,0.0 77.59494710626126,11.286433229677668,0.0 77.59395895944873,11.286433229677668,0.0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+            <Folder id="1673">
+                <name>NDWI: Dry (-0.25 to -0.1)</name>
+            </Folder>
+            <Folder id="1674">
+                <name>NDWI: Neutral (-0.1 to 0)</name>
+            </Folder>
+            <Folder id="1675">
+                <name>NDWI: Moist (0 to 0.1)</name>
+            </Folder>
+            <Folder id="1676">
+                <name>NDWI: High (0.1 to 0.2)</name>
+            </Folder>
+            <Folder id="1677">
+                <name>NDWI: Saturated (&gt;0.2)</name>
+            </Folder>
+        </Folder>
+    </Document>
+</kml>
